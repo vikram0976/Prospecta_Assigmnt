@@ -1,0 +1,38 @@
+Question: 
+	
+Question --> what are the key things you would consider when 
+creating/consuming an API to ensure that it is secure and reliable?
+
+
+Answer :- 
+
+There are some key points which should you follow when we creating or 
+consuming a API request , this points are -- 
+
+1. Authentication -->  Any of our application should has the feature of authentication for the the purpose of
+                        accessing our APIs by the user i.e by providing user user id and password it generate
+                        a uuid token by authenticating the user id and password. So that not any user login
+                        without proper authentication.
+                        
+
+2. Authorization --> This feature which should be there in any web-services. No one who is not
+                     authorized person should not have access to changing any data form database.
+                     In provide a user is authorized only to certain limit it means that admin can login and 
+                     see details of its customer but on the other hand customer can see all information
+                     releated to its self only. 
+                     
+3. Session Management -->  It process the secure handling of multiple request from entity.
+                           In other word i.e it refers to the process of securely handling multiple 
+                           requests to a web-based application or service from a single user or entity.
+                           
+4. Validation --> It is also a important thing which will allow to user to fill the data for posting 
+                  according our validations of APIs.
+ 
+ 
+5. Encryption ==> It provide security by converting user id and password in encrypted form . so that third 
+                   person not able to get this details . This can done encytion the msg by using different 
+                   encryption and hashing technique or this HTTPS server.
+  
+ While developing we need to keep in mind of above key points.     
+            
+                                                    
